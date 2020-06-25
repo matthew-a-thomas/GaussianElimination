@@ -12,7 +12,15 @@
     <PackageLicenseUrl>https://github.com/matthew-a-thomas/Matt.Math.Linear.Solving/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/matthew-a-thomas/Matt.Math.Linear.Solving</PackageProjectUrl>
     <RepositoryUrl>https://github.com/matthew-a-thomas/Matt.Math.Linear.Solving</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Matt.Bits" Version="1.6.0" />
   </ItemGroup>
